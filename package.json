@@ -1,0 +1,27 @@
+{
+  "name": "playwright-portfolio",
+  "version": "1.0.0",
+  "description": "End-to-end testing portfolio built with Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:inventory": "playwright test tests/inventory.spec.ts",
+    "test:cart": "playwright test tests/cart.spec.ts",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "e2e", "testing", "automation"],
+  "author": "Edi Mazor",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  }
+}
