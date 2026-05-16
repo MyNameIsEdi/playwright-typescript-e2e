@@ -122,11 +122,4 @@ Every push to `main` and every pull request triggers the GitHub Actions pipeline
 4. Uploads the HTML report and failure traces as a 30-day build artifact if any test fails.
 
 ---
-
-## 👤 Author
-
-**Edi Mazor** | QA Automation Engineer
-
-
-
 </div>
