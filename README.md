@@ -1,10 +1,10 @@
 
-# 🎭 Tests Repository 
+# 🎭 Playwright & TypeScript E2E Framework
 
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=Playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-[![Playwright Tests](https://github.com/MyNameIsEdi/tests_repository/actions/workflows/playwright.yml/badge.svg)](https://github.com/MyNameIsEdi/tests_repository/actions)
+[![Playwright Tests](https://github.com/MyNameIsEdi/playwright-typescript-e2e/actions/workflows/playwright.yml/badge.svg)](https://github.com/MyNameIsEdi/playwright-typescript-e2e/actions)
 
 A production-grade End-to-End testing framework built with **Playwright** and **TypeScript**, testing a real e-commerce demo site (Saucedemo). Demonstrates industry best practices including the **Page Object Model**, shared **auth fixtures**, centralized **test data**, and a full **CI/CD pipeline**.
 
@@ -12,13 +12,13 @@ A production-grade End-to-End testing framework built with **Playwright** and **
 
 ## 🚀 Features
 
-- **Page Object Model (POM)**  UI logic fully separated from test scripts across 4 page classes.
-- **Auth Fixture**  Extends Playwright's built-in `page` fixture to provide a pre-authenticated browser, eliminating login boilerplate in every test.
-- **Centralized Test Data**  All credentials, URLs, and constants live in one file; no magic strings in tests.
-- **Full E2E Coverage**  Authentication, product sorting, cart management, and complete checkout flow.
-- **Multi-browser Support**  Tests run concurrently across Chromium, Firefox, and WebKit.
-- **GitHub Actions CI**  Automatic execution on every push and pull request.
-- **HTML Report + Traces**  Screenshots, videos, and Playwright traces captured automatically on failure for quick debugging.
+- **Page Object Model (POM):** UI logic fully separated from test scripts across 4 page classes.
+- **Auth Fixture:** Extends Playwright's built-in `page` fixture to provide a pre-authenticated browser, eliminating login boilerplate in every test.
+- **Centralized Test Data:** All credentials, URLs, and constants live in one file; no magic strings in tests.
+- **Full E2E Coverage:** Authentication, product sorting, cart management, and complete checkout flow.
+- **Multi-browser Support:** Tests run concurrently across Chromium, Firefox, and WebKit.
+- **GitHub Actions CI:** Automatic execution on every push and pull request.
+- **HTML Report + Traces:** Screenshots, videos, and Playwright traces captured automatically on failure for quick debugging.
 
 ---
 
@@ -88,7 +88,7 @@ You can use the following scripts defined in `package.json`:
 # All tests, all browsers (headless)
 npm test
 
-# Interactive UI mode  great for debugging
+# Interactive UI mode - great for debugging
 npm run test:ui
 
 # Watch the browser (headed mode)
@@ -121,5 +121,6 @@ Every push to `main` and every pull request triggers the GitHub Actions pipeline
 3. Runs the complete test suite in headless mode across all targeted browsers.
 4. Uploads the HTML report and failure traces as a 30-day build artifact if any test fails.
 
----
-</div>
+```
+
+```
